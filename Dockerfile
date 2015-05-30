@@ -1,4 +1,4 @@
-FROM        eadz/ubuntu:latest
+FROM        quay.io/eadz/ubuntu:latest
 MAINTAINER _@eaden.net
 RUN         apt-get -y install redis-server
 EXPOSE      6379
